@@ -25,11 +25,14 @@ AI Study App is a comprehensive educational platform that leverages artificial i
 <div align="center">
 
 ### 🖥️ Desktop Experience
-![AI Study App Desktop](docs/images/desktop-preview.png)
+![image](https://github.com/user-attachments/assets/4352a5ed-b85d-40f0-bdf5-d31db4e52ddb)
+![image](https://github.com/user-attachments/assets/0f801874-8571-43a5-9053-c13de52e0f42)
+
 *Modern, responsive design optimized for desktop and laptop screens*
 
 ### 📱 Mobile Experience  
-<img src="docs/images/mobile-preview.png" alt="AI Study App Mobile" width="300">
+![image](https://github.com/user-attachments/assets/2312c868-cfa3-48ba-adb0-30c0424beacc)
+![image](https://github.com/user-attachments/assets/9cf1db14-0225-4f97-9a78-4989f7359e21)
 
 *Fully responsive mobile interface for learning on the go*
 
