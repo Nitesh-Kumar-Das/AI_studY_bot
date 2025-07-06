@@ -126,7 +126,7 @@ AI Study App is a comprehensive educational platform that leverages artificial i
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/AI-study_app.git](https://github.com/Nitesh-Kumar-Das/AI_studY_bot.git)
+   git clone https://github.com/Nitesh-Kumar-Das/AI_studY_bot.git
    cd AI-study_app
    ```
 
