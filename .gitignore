@@ -1,0 +1,316 @@
+# AI Study App - Comprehensive .gitignore
+
+# ========================================
+# DEPENDENCIES & PACKAGE MANAGERS
+# ========================================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+
+# Package manager files
+package-lock.json
+frontend/package-lock.json
+backend/package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log*
+.yarn/
+.pnp.*
+.yarnrc
+.npmrc
+
+# ========================================
+# ENVIRONMENT & SECRETS
+# ========================================
+# Environment variables
+.env
+.env.*
+!.env.example
+frontend/.env*
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# API Keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cert
+*.ca-bundle
+openai-api-key.txt
+api-keys.json
+config.json
+secrets.json
+credentials.json
+service-account-key.json
+firebase-adminsdk-*.json
+google-services.json
+GoogleService-Info.plist
+
+# Configuration files with sensitive data
+config/production.json
+config/development.json
+config/local.json
+
+# ========================================
+# DATABASE
+# ========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+database.json
+database.sql
+dump.sql
+*.mdb
+*.accdb
+
+# ========================================
+# BUILD OUTPUTS & COMPILED FILES
+# ========================================
+build/
+dist/
+out/
+.next/
+frontend/.next/
+.nuxt/
+.output/
+.vite/
+.turbo/
+.swc/
+
+# Compiled binary addons
+build/Release/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+frontend/next-env.d.ts
+next-env.d.ts
+
+# ========================================
+# LOGS & DEBUG FILES
+# ========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+debug.log
+error.log
+combined.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ========================================
+# UPLOADS & USER CONTENT
+# ========================================
+uploads/
+backend/uploads/
+frontend/uploads/
+user-uploads/
+temp-files/
+media/
+files/
+documents/
+images/user/
+avatars/
+profile-pics/
+
+# ========================================
+# CACHE & TEMPORARY FILES
+# ========================================
+.cache/
+.parcel-cache/
+.nyc_output/
+.node_repl_history
+.npm/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# ========================================
+# TESTING & COVERAGE
+# ========================================
+coverage/
+*.lcov
+.nyc_output/
+junit.xml
+test-results/
+playwright-report/
+test-results.xml
+
+# ========================================
+# IDE & EDITOR FILES
+# ========================================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+*.sublime-project
+*.sublime-workspace
+.vimrc.local
+.lvimrc
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ========================================
+# OS GENERATED FILES
+# ========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# DEPLOYMENT & HOSTING
+# ========================================
+.vercel
+.netlify
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Heroku
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================================
+# DEVELOPMENT TOOLS
+# ========================================
+# Storybook
+.out/
+.storybook-out/
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# ========================================
+# SECURITY & SENSITIVE FILES
+# ========================================
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# GPG Keys
+*.gpg
+*.asc
+
+# Certificate files
+*.csr
+*.der
+
+# ========================================
+# MISC
+# ========================================
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# DotEnv environment variable files
+.env.backup
+
+# Next.js specific
+.next/
+out/
+
+# SvelteKit specific
+.svelte-kit/
+
+# Local development
+.local/
+.vscode-test/
+
+# Default framework files
+frontend/README.md
+
+# Ignore all backup files
+*.bak
+*.backup
+*.old
